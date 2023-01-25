@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #FFE6E6;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  height: 60px;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__nav-item {
+  list-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header__nav-item:hover {
+  color: rgb(104, 104, 104);
+}
+
+.header__nav-item.active {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.header__nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
