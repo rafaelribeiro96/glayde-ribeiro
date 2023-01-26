@@ -91,6 +91,11 @@
   }
 }
 
+@media (max-width: 350px) {
+  .img__title  {
+    width: 90%;
+  }
+}
 
 @media (max-width: 300px) {
 
@@ -113,5 +118,9 @@
     flex-direction: column;
     height: auto;
     align-items: center;
+  }
+
+  .img__title  {
+    width: 90%;
   }
 }
