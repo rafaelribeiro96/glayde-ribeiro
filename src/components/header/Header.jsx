@@ -7,13 +7,27 @@ class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentPage: 'home'
+            currentPage: ''
         };
     }
 
+    componentDidMount() {
+        const pathname = window.location.pathname;
+        let currentPage = 'home';
+        if (pathname === '/sobre') {
+            currentPage = 'sobre';
+        } else if (pathname === '/produtos') {
+            currentPage = 'produtos';
+        } else if (pathname === '/contato') {
+            currentPage = 'contato';
+        }
+        this.setState({ currentPage });
+    }
     handlePageChange(page) {
         this.setState({ currentPage: page });
     }
+            
+
 
     render() {
         return (
