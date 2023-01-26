@@ -13,13 +13,7 @@ function Footer() {
             </div>
             <div className="footer__col">
                 <h2 className="footer__title">Funcionamento</h2>
-                <div className="footer__info">
-                    {/* <p className="footer__schedule">
-                        Terça à sexta - 10:30 ÀS 20:00<br/>
-                        Sábado - 08:00 ÁS 16:00 <br/>
-                        Domingo - 08:00 ÁS 11:30<br/>
-                        Segunda - fechado
-                    </p> */}
+                <div className="footer__info father__table">
                     <table className="footer__table">
                         <tr>
                             <td>Terça à sexta</td>

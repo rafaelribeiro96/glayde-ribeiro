@@ -5,7 +5,7 @@
   padding: 20px;
   background-color: #837575;
   margin-top: 30px;
-  height: 150px;
+  height: 250px;
   color: white;
   line-height: 1.5em;
   padding: 50px 70px;
@@ -33,6 +33,12 @@
   /* Estilos para o Instagram */
   text-decoration: none;
   color: white;
+}
+
+.father__table {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .end {
@@ -70,12 +76,14 @@
     text-align: center;
   }
 
-  .footer__col {
+  .footer__col + .footer__col{
   width: 100%;
   text-align: center;
+  margin-top: 50px;
   }
   
   .footer__title {
   font-size: 1.5em;
   }
 }
+
