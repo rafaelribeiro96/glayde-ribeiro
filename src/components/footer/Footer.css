@@ -1,0 +1,77 @@
+.footer {
+  /* Estilos para o componente */
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #837575;
+  margin-top: 30px;
+  height: 150px;
+  color: white;
+  line-height: 1.5em;
+  padding: 50px 70px;
+}
+
+.footer__col {
+  /* Estilos para as colunas */
+  width: 33%;
+}
+
+.footer__title {
+  /* Estilos para os títulos */
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+
+.footer__info {
+  margin-top: 10px;
+}
+
+.footer__instagram {
+  /* Estilos para o Instagram */
+  text-decoration: none;
+  color: white;
+}
+
+.end {
+  text-align: end;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    font-size: 0.9em;
+  }
+  .footer__col {
+  width: 100%;
+  }
+  
+  .footer__title {
+  font-size: 1.5em;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+  flex-direction: column;
+  font-size: 0.9em;
+  text-align: center;
+  height: 100%;
+  max-height: 500px;
+  }
+  
+  .end {
+    text-align: center;
+  }
+
+  .footer__col {
+  width: 100%;
+  text-align: center;
+  }
+  
+  .footer__title {
+  font-size: 1.5em;
+  }
+}

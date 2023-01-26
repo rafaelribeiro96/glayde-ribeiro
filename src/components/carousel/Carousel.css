@@ -15,6 +15,11 @@
   height: 500px;
   object-fit: cover;
   transition: transform 1s ease-in-out;
+  opacity: 50%;
+}
+
+.carousel__image:hover {
+  opacity: 100%;
 }
 
 .carousel__nav {
@@ -47,4 +52,37 @@
 
 .carousel__nav-button:last-child {
   right: 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+  .carousel__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .carousel__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .carousel__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .carousel__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel__image {
+    width: 100%;
+    height: 300px;
+  }
 }

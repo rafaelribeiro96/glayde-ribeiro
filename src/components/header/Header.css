@@ -4,7 +4,7 @@
   background-color: #FFE6E6;
   padding: 10px 20px;
   font-family: 'Montserrat', sans-serif;
-  height: 60px;
+  height: 80px;
 }
 
 .header__title {
@@ -15,6 +15,7 @@
 
 .header__nav {
   margin-left: auto;
+  color: #4D4D4D;
 }
 
 .header__nav-item {
@@ -28,7 +29,7 @@
 }
 
 .header__nav-item.active {
-  color: rgb(0, 0, 0);
+  color: rgb(65, 65, 65);
   font-weight: bold;
 }
 
@@ -36,4 +37,41 @@
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+
+@media (max-width: 570px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header__nav {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 420px) {
+
+  .header {
+    display: block;
+  }
+
+  .header__nav-item {
+    margin-right: 0;
+  }
+  
+
+  .header__title {
+    text-align: center;
+  }
+
+  .header__nav ul{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
 }

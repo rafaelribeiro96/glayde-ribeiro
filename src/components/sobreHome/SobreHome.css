@@ -1,0 +1,53 @@
+.sobreHome {
+  /* Estilos para o componente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  margin-top: 10px;
+  color: #4D4D4D;
+}
+
+.sobreHome__title {
+  /* Estilos para o título */
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.356);
+}
+
+.sobreHome__list {
+  /* Estilos para a lista */
+  display: flex;
+}
+
+.sobreHome__item {
+  /* Estilos para os itens da lista */
+  margin-top: 10px;
+  list-style-type: none;
+  position: relative;
+  margin-right: 20px;
+}
+
+.sobreHome__link {
+  /* Estilos para os links */
+  text-decoration: none;
+  color: inherit;
+}
+
+.sobreHome__image {
+  margin-top: 40px;
+  width: 100%;
+}
+
+@media (max-width: 420px) {
+
+  .sobreHome__title {
+   text-align: center;
+  }
+
+  .sobreHome__list{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+}
