@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route, Outlet, Navigate } from 'react-router-dom';
-import Main from './views/main';
+/* import Main from './views/main'; */
+import Main from './views/main/';
 import GlobalContextProvider from './context/GlobalContextProvider';
 import useUser from './hooks/useUser';
 
@@ -18,11 +19,11 @@ export default function MainRoutes() {
     return (
         <GlobalContextProvider>
             <Routes>
-                <Route path="/" element={<h1>SignIn</h1>} />
+                <Route path="/" element={<Main />} />
                 <Route element={<ProtectedRoutes redirectTo="/" />}>
                     <Route path="/main" element={<Main />} />
                 </Route>
-                <Route path="*" element={<h1> 404 - Not found </h1>} />
+                <Route path="*" element={ '404 - Not found'} />
             </Routes>
         </GlobalContextProvider>
     );
