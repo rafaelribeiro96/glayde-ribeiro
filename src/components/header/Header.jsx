@@ -24,17 +24,28 @@ class Header extends Component {
                 <nav className="header__nav">
                     <ul>
                         <li className={`header__nav-item ${this.state.currentPage === 'home' ? 'active' : ''}`}
-                            onClick={() => this.handlePageChange('home')}>home</li>
+                            onClick={() => this.handlePageChange('home')}><a href="/">home</a></li>
+
+
                         <li className={`header__nav-item ${this.state.currentPage === 'sobre' ? 'active' : ''}`}
-                            onClick={() => this.handlePageChange('sobre')}>sobre</li>
-                        <li className={`header__nav-item ${this.state.currentPage === 'cardapio' ? 'active' : ''}`}
-                            onClick={() => this.handlePageChange('cardapio')}>cardápio</li>
+                            onClick={() => this.handlePageChange('sobre')}> <a href="/sobre">sobre</a></li>
+                        
+                        
+                        <li className={`header__nav-item ${this.state.currentPage === 'produtos' ? 'active' : ''}`}
+                            onClick={() => this.handlePageChange('produtos')}><a href="/produtos">produtos</a></li>
+                        
+                        
                         {/* <li className={`header__nav-item ${this.state.currentPage === 'blog' ? 'active' : ''}`}
                             onClick={() => this.handlePageChange('blog')}>blog</li> */}
-                        <li className={`header__nav-item ${this.state.currentPage === 'encomenda' ? 'active' : ''}`}
-                            onClick={() => this.handlePageChange('encomenda')}>encomenda</li>
+                        
+                        
+                        {/* <li className={`header__nav-item ${this.state.currentPage === 'encomenda' ? 'active' : ''}`}
+                            onClick={() => this.handlePageChange('encomenda')}>encomenda</li> */}
+                        
+                        
                         <li className={`header__nav-item ${this.state.currentPage === 'contato' ? 'active' : ''}`}
-                            onClick={() => this.handlePageChange('contato')}>contato</li>
+                            onClick={() => this.handlePageChange('contato')}><a href="/contato">contato</a></li>
+
                     </ul>
                 </nav>
             </header>

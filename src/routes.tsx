@@ -3,6 +3,12 @@ import React from 'react';
 import { Routes, Route, /* Outlet, Navigate */ } from 'react-router-dom';
 // @ts-ignore
 import Main from './views/main/';
+// @ts-ignore
+import About from './views/about/';
+// @ts-ignore
+import Products from './views/products/';
+// @ts-ignore
+import Contact from './views/contact/';
 import GlobalContextProvider from './context/GlobalContextProvider';
 /* import useUser from './hooks/useUser';
 
@@ -25,6 +31,9 @@ export default function MainRoutes() {
                 {/* <Route element={<ProtectedRoutes redirectTo="/" />}>
                     <Route path="/main" element={<Main />} />
                 </Route> */}
+                <Route path="/sobre" element={<About />} />
+                <Route path="/produtos" element={<Products />} />
+                <Route path="/contato" element={<Contact />} />
                 <Route path="*" element={ '404 - Not found'} />
             </Routes>
         </GlobalContextProvider>

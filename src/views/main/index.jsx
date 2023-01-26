@@ -35,7 +35,6 @@ function Main() {
             <SobreHome />
             <RedesSociais />
             <Footer />
-
         </div>
         
     );
