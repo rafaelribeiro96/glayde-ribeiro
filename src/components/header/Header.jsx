@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react';
 import './Header.css';
+import logoGlayde from '../../assets/images/logo-glayde-escrita.png';
 
 class Header extends Component {
     constructor(props) {
@@ -18,7 +19,8 @@ class Header extends Component {
         return (
             <header className="header">
                 {/* <h1 className="header__title">{this.props.title}</h1> */}
-                <h1 className="header__title">Glayde Ribeiro</h1>                
+                {/* <h1 className="header__title">Glayde Ribeiro</h1> */}
+                <h1 className="header__title__img"><img className="img__title" src={logoGlayde} alt="" /></h1>                  
                 <nav className="header__nav">
                     <ul>
                         <li className={`header__nav-item ${this.state.currentPage === 'home' ? 'active' : ''}`}
