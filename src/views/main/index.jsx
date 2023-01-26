@@ -29,7 +29,7 @@ function Main() {
     return (
         <div className="container">
             <Header />
-            <Carousel images={images1} interval={3000} />
+            <Carousel images={images1} interval={5000} />
             <Gallery images={images2} />
             <NossosProdutos />
             <Carousel2 images={images3} interval={3000} />
