@@ -12,3 +12,30 @@
   /* #ECC3D0 */
   /* #4D4D4D */
   /* #837575 */
+
+
+  .content__about {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+    
+    .content__about__image {
+    width:50%;
+    margin-right: 2%;
+    }
+    
+    .content__about__text {
+    width: 68%;
+    }
+    
+    .content__about__text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .content__about__text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    }
