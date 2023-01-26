@@ -49,8 +49,34 @@
   cursor: pointer;
 }
 
+.prev-button, .next-button {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 100px;
+}
+
+.next-button {
+  right: 100px;
+}
+
 @media (max-width: 700px) {
   .thumbnail-image {
     width: calc(50% - 16px);
+  }
+
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
   }
 }
