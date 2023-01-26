@@ -43,7 +43,7 @@ class Carousel extends Component {
                 <img src={this.props.images[this.state.currentIndex]} alt="Slideshow" className="carousel__image" />
                 <div className="carousel__nav">
                     <div className="social-buttons">
-                        <a href="https://wa.me/5531991525735?text=Olá%20Glayde%20Te%20encontrei%20através%20do%20seu%20site" target="_blank" rel="noreferrer">
+                        <a href="https://wa.me/5531991525735?text=Ol%C3%A1%20Glayde,%20te%20encontrei%20atrav%C3%A9s%20do%20seu%20site!" target="_blank" rel="noreferrer">
                             <img src={wppsvg} alt="" className="svgbtn svg__wpp"/>
                         </a>
                         <a href="https://www.instagram.com/glayderibeiro/" target="_blank" rel="noreferrer">
