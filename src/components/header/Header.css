@@ -25,7 +25,6 @@
 
 .header__nav {
   margin-left: auto;
-  color: #4D4D4D;
 }
 
 .header__nav-item {
@@ -49,6 +48,11 @@
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+.header__nav ul a {
+  text-decoration:none;
+  color: #4D4D4D;
 }
 
 @media (max-width: 960px) {

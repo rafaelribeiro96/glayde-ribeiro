@@ -2,6 +2,8 @@
 // Carousel.jsx
 import React, { Component } from 'react';
 import './Carousel.css';
+import wppsvg from '../../assets/images/wpp.svg';
+import instasvg from '../../assets/images/instagram.svg';
 
 class Carousel extends Component {
     constructor(props) {
@@ -40,6 +42,15 @@ class Carousel extends Component {
             <div className="carousel">
                 <img src={this.props.images[this.state.currentIndex]} alt="Slideshow" className="carousel__image" />
                 <div className="carousel__nav">
+                    <div className="social-buttons">
+                        <a href="https://wa.me/5531991525735?text=Olá%20Glayde%20Te%20encontrei%20através%20do%20seu%20site" target="_blank" rel="noreferrer">
+                            <img src={wppsvg} alt="" className="svgbtn svg__wpp"/>
+                        </a>
+                        <a href="https://www.instagram.com/glayderibeiro/" target="_blank" rel="noreferrer">
+                            <img src={instasvg} alt="" className="svgbtn svg__instagram" />
+                        </a>
+                    </div>
+
                     <button className="carousel__nav-button" onClick={() => this.handlePrevClick()}>&lt;</button>
                     <button className="carousel__nav-button" onClick={() => this.handleNextClick()}>&gt;</button>
                 </div>

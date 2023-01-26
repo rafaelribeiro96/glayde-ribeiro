@@ -6,6 +6,7 @@ import Gallery from '../../components/gallery/Gallery.jsx';
 import NossosProdutos from '../../components/nossosProdutos/NossosProdutos.jsx';
 import SobreHome from '../../components/sobreHome/SobreHome.jsx';
 import RedesSociais from '../../components/redesSociais/RedesSociais.jsx';
+import FloatingButton from '../../components/botaoContato/FloatingButton.jsx';
 import Footer from '../../components/footer/Footer.jsx';
 import './index.css';
 import bolo1 from '../../assets/images/bolo1.jpg';
@@ -34,6 +35,7 @@ function Main() {
             <Carousel2 images={images3} interval={3000} />
             <SobreHome />
             <RedesSociais />
+            <FloatingButton />
             <Footer />
         </div>
         

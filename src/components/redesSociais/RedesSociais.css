@@ -6,8 +6,8 @@
   align-items: center;
   flex-wrap:wrap;
   color: #4D4D4D;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .redes__title {
@@ -19,7 +19,7 @@
   /* Estilos para a lista */
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .redes__item {
@@ -27,15 +27,16 @@
   margin-top: 10px;
   list-style-type: none;
   position: relative;
-  margin-right: 20px;
+  margin-right:80px;
+  margin-left: 80px;
 }
 
 .redes__link img{
   /* Estilos para os links */
   text-decoration: none;
   color: inherit;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 @media (max-width: 550px) {
