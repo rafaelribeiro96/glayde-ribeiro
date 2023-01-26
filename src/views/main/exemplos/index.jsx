@@ -1,4 +1,5 @@
-import React from 'react';
+
+/* import React from 'react';
 import Counter from '../../components/counter';
 import CounterWhitRedux from '../../components/counterWhitRedux';
 import GetPokemonWhitRedux from '../../components/getPokemonWhitRedux';
@@ -17,3 +18,4 @@ function Main() {
 }
 
 export default Main;
+ */
