@@ -9,7 +9,7 @@ function RedesSociais() {
         <div className="redes">
             <ul className="redes__list">
                 <li className="redes__item">
-                    <a target="_blank" href="https://wa.me/5531991525735" className="redes__link" rel="noreferrer"><img className="whatsapp__image" src={whatsapp} alt="" /></a>
+                    <a target="_blank" href="https://wa.me/5531991525735?text=Olá%20Glayde%20Te%20encontrei%20através%20do%20seu%20site" className="redes__link" rel="noreferrer"><img className="whatsapp__image" src={whatsapp} alt="" /></a>
                 </li>
                 <li className="redes__item">
                     <a target="_blank" href="https://www.facebook.com/GlaydeRibeiro" className="redes__link" rel="noreferrer"><img className="facebook__image" src={facebook} alt="" /></a>

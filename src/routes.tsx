@@ -1,6 +1,7 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import React from 'react';
 import { Routes, Route, Outlet, Navigate } from 'react-router-dom';
-/* import Main from './views/main'; */
+// @ts-ignore
 import Main from './views/main/';
 import GlobalContextProvider from './context/GlobalContextProvider';
 import useUser from './hooks/useUser';
