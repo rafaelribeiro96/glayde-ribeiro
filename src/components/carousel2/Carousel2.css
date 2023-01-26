@@ -29,7 +29,7 @@ css carrousel
 
 .carousel2__image {
   width: 60%;
-  height: 400px;
+  height: 500px;
   object-fit: cover;
   transition: transform 1s ease-in-out;
   border: white 10px inset;
@@ -50,7 +50,7 @@ css carrousel
   padding: 5px 10px;
   cursor: pointer;
   position: absolute;
-  transform: translateY(-450%);
+  transform: translateY(-550%);
   bottom: 0;  
 }
 

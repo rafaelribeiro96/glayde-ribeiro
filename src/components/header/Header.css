@@ -5,7 +5,12 @@
   padding: 25px 20px 10px 20px;
   font-family: 'Montserrat', sans-serif;
   height: 80px;
+  justify-content: space-around;
 }
+
+.container {
+}
+
 
 .header__title {
   margin: 0;

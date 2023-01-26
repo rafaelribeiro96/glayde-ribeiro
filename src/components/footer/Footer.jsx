@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div className="footer">
+        <div className="footer father__table">
             <div className="footer__col">
                 <h2 className="footer__title">Contato</h2>
                 <div className="footer__info">
@@ -36,9 +36,9 @@ function Footer() {
                 </div>
             </div>
             <div className="footer__col">
-                <h2 className="footer__title end">Endereço</h2>
+                <h2 className="footer__title">Endereço</h2>
                 <div className="footer__info">
-                    <p className="footer__address end">Rua Monte Simplon, 1279 <br/>Salgado Filho, BH-MG</p>
+                    <p className="footer__address">Rua Monte Simplon, 1279 <br/>Salgado Filho, BH-MG</p>
                 </div>
             </div>
         </div>

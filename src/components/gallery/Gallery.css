@@ -11,11 +11,22 @@
   justify-content: center;
 }
 
-.thumbnail-image {
+/* .thumbnail-image {
   width: calc(25% - 16px);
   margin: 8px;
   cursor: pointer;
   border: #FFE6E6 solid 15px;
+  background-color: #FFE6E6;
+  box-sizing: border-box;
+  object-fit: cover;
+} */
+
+.thumbnail-image {
+  width: calc(25% - 16px);
+  margin: 8px;
+  cursor: pointer;
+  border: #FFE6E6 solid 5px;
+  border-radius: 10px;
   background-color: #FFE6E6;
   box-sizing: border-box;
   object-fit: cover;

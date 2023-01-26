@@ -16,11 +16,13 @@ const images1 = [bolo1, bolo2, bolo3, bolo4];
 
 function About() {
     return (
-        <div className="container">
+        <div className="div__body"> 
             <Header />
-            <h1>Página Sobre</h1>
-            <Gallery images={images1} />
-            <RedesSociais />
+            <div className="container">
+                <h1>Página Sobre</h1>
+                <Gallery images={images1} />
+                <RedesSociais />
+            </div>
             <Footer />
         </div>
         

@@ -27,15 +27,17 @@ const images3 = [bolo5, bolo6, bolo9, bolo8];
 
 function Main() {
     return (
-        <div className="container">
+        <div className="div__body"> 
             <Header />
-            <Carousel images={images1} interval={5000} />
-            <Gallery images={images2} />
-            <NossosProdutos />
-            <Carousel2 images={images3} interval={3000} />
-            <SobreHome />
-            <RedesSociais />
-            <FloatingButton />
+            <div className="container">
+                <Carousel images={images1} interval={5000} />
+                <Gallery images={images2} />
+                <NossosProdutos />
+                <Carousel2 images={images3} interval={3000} />
+                <SobreHome />
+                <RedesSociais />
+                <FloatingButton />
+            </div>
             <Footer />
         </div>
         
