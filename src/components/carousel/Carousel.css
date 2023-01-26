@@ -1,4 +1,4 @@
-// css carrousel
+css carrousel
 
 .carousel {
   width: 100%;
@@ -39,7 +39,6 @@
   position: absolute;
   transform: translateY(-350%);
   bottom: 0; 
-  
 }
 
 .carousel__nav-button:hover {
@@ -53,8 +52,6 @@
 .carousel__nav-button:last-child {
   right: 10px;
 }
-
-
 
 @media (max-width: 1000px) {
   .carousel__image {
