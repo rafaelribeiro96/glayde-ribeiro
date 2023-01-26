@@ -114,6 +114,10 @@ css carrousel
   .svgbtn {
     width: 50px;
   }
+
+  .carousel__nav-button {
+    transform: translateY(-200%);
+  }
   
 }
 
