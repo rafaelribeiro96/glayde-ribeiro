@@ -1,17 +1,111 @@
-/* .container {
-    width: 100vw;
-    height: 100vh;
+.contato__title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+.link__insta__contato {
+  text-decoration: none;
+  color: #242020;
+}
+
+.contato__content {
+  display: flex;
+  justify-content: space-evenly;
+  }
   
+  .contato__maps {
+    width: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+  margin-right: 20px;
+  }
+  
+  .contact__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  }
+  
+  .contact__right div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+  .contato__endereco, .contato__telefone, .contato__instagram {
+  margin-bottom: 20px;
+  }
+
+  .contato__endereco p {
+    text-align: center;
+  }
+  
+  .botao__whatsapp {
+  background-color: #FFE6E6;
+  color: #837575;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  }
+  
+  .botao__whatsapp:hover {
+  background-color: #ECC3D0;
+  cursor: pointer;
+  font-weight: bold;
+  }
+  
+  h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  }
+  
+  p {
+  font-size: 1.2em;
+  }
+  
+  /* Adicione qualquer outro estilo que desejar */
+  
+  /* Exemplo de estilo para iframe */
+  iframe {
+  border: 1px solid gray;
+  border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .contato__content {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .contato__maps {
+    margin-top: 50px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+
+    .contact__right {
+      width: 90%;
+      display: flex;
       flex-direction: column;
-  } */
-
-  /* #FFE6E6; */
-  /* #ECC3D0 */
-  /* #4D4D4D */
-  /* #837575 */
-
-
- 
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      }
+      
+    }
+    
+    
+    @media (max-width: 480px) {
+    h2 {
+    font-size: 1.2em;
+    }
+    }

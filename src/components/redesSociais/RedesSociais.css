@@ -40,6 +40,10 @@
   opacity: 0.5;
 }
 
+.ifood__image {
+  object-fit: contain;
+}
+
 @media (max-width: 550px) {
 
   .redes__link img{

@@ -5,6 +5,7 @@ import Carousel2 from '../../components/carousel2/Carousel2.jsx'; */
 import Gallery from '../../components/gallery/Gallery.jsx';
 import RedesSociais from '../../components/redesSociais/RedesSociais.jsx';
 import Footer from '../../components/footer/Footer.jsx';
+import FloatingButton from '../../components/botaoContato/FloatingButton.jsx';
 import './index.css';
 import bolo1 from '../../assets/images/bolo1.jpg';
 import bolo2 from '../../assets/images/bolo2.jpg';
@@ -22,6 +23,7 @@ function Products() {
                 <h1>Página de Produtos</h1>
                 <Gallery images={images1} />
                 <RedesSociais />
+                <FloatingButton />
             </div>
             <Footer />
         </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import './RedesSociais.css';
 import whatsapp from '../../assets/images/whatsapp.png';
-import facebook from '../../assets/images/facebook.png';
 import instagram from '../../assets/images/instagram.png';
+import ifood from '../../assets/images/ifood-vermelho.png';
 
 function RedesSociais() {
     return (
@@ -16,7 +16,7 @@ function RedesSociais() {
                     <a target="_blank" href="https://www.instagram.com/glayderibeiro/" className="redes__link" rel="noreferrer"><img className="instagram__image" src={instagram} alt="" /></a>
                 </li>
                 <li className="redes__item">
-                    <a target="_blank" href="https://www.facebook.com/GlaydeRibeiro" className="redes__link" rel="noreferrer"><img className="facebook__image" src={facebook} alt="" /></a>
+                    <a target="_blank" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/confeitaria-glayde-ribeiro-doces--bolos-salgado-filho/0ccfe710-ac48-44f0-a2e6-86e298d060ad?utm_medium=share" className="redes__link" rel="noreferrer"><img className="ifood__image" src={ifood} alt="" /></a>
                 </li>
                 {/* <li className="redes__item">
                     <a href="#" className="redes__link">doces</a>

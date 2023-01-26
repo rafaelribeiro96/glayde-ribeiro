@@ -18,3 +18,14 @@
   right: 15px; 
   bottom: 15px;
 }
+
+
+.floating-button2  {
+  position: fixed;  
+  right: 80px; 
+  bottom: 20px;
+}
+
+.button-ifood {
+  width: 80px;
+}

@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import './Carousel.css';
 import wppsvg from '../../assets/images/wpp.svg';
 import instasvg from '../../assets/images/instagram.svg';
+import ifoodpng from '../../assets/images/ifood-branco.png';
 
 class Carousel extends Component {
     constructor(props) {
@@ -49,11 +50,17 @@ class Carousel extends Component {
                     </div>
                     
                     <div className="social-buttons">
+                        
                         <a href="https://wa.me/5531991525735?text=Ol%C3%A1%20Glayde,%20te%20encontrei%20atrav%C3%A9s%20do%20seu%20site!" target="_blank" rel="noreferrer">
                             <img src={wppsvg} alt="" className="svgbtn svg__wpp"/>
                         </a>
+                        
                         <a href="https://www.instagram.com/glayderibeiro/" target="_blank" rel="noreferrer">
                             <img src={instasvg} alt="" className="svgbtn svg__instagram" />
+                        </a>
+                       
+                        <a href="https://www.ifood.com.br/delivery/belo-horizonte-mg/confeitaria-glayde-ribeiro-doces--bolos-salgado-filho/0ccfe710-ac48-44f0-a2e6-86e298d060ad?utm_medium=share" target="_blank" rel="noreferrer">
+                            <img src={ifoodpng} alt="" className="svgbtn svg__instagram" />
                         </a>
                     </div>
 

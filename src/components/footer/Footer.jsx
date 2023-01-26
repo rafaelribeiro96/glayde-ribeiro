@@ -8,7 +8,8 @@ function Footer() {
                 <h2 className="footer__title">Contato</h2>
                 <div className="footer__info">
                     <a href="tel:+31991525735" className="footer__telephone">Telefone: (31) 99152-5735</a>
-                    <a target="_blank" href="https://www.instagram.com/glayderibeiro/" className="footer__instagram" rel="noreferrer">@GlaydeRibeiro</a>
+                    <a target="_blank" href="https://www.instagram.com/glayderibeiro/" className="footer__instagram" rel="noreferrer">Instagram @GlaydeRibeiro</a>
+                    <a target="_blank" href="https://www.ifood.com.br/delivery/belo-horizonte-mg/confeitaria-glayde-ribeiro-doces--bolos-salgado-filho/0ccfe710-ac48-44f0-a2e6-86e298d060ad?utm_medium=share" className="footer__instagram" rel="noreferrer">Ifood Glayde Ribeiro</a>
                 </div>
             </div>
             <div className="footer__col">
