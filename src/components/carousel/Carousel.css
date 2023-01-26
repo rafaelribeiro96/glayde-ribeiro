@@ -15,7 +15,7 @@
   height: 500px;
   object-fit: cover;
   transition: transform 1s ease-in-out;
-  opacity: 50%;
+  opacity: 80%;
 }
 
 .carousel__image:hover {

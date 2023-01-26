@@ -52,6 +52,14 @@
   }
 }
 
+.footer__table td {
+  padding-right: 25px;
+  border-bottom: solid 1px white;
+}
+
+/* .footer__table tr, td {
+  border: solid 1px black;
+} */
 
 @media (max-width: 768px) {
   .footer {

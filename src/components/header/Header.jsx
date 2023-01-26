@@ -29,8 +29,8 @@ class Header extends Component {
                             onClick={() => this.handlePageChange('sobre')}>sobre</li>
                         <li className={`header__nav-item ${this.state.currentPage === 'cardapio' ? 'active' : ''}`}
                             onClick={() => this.handlePageChange('cardapio')}>cardápio</li>
-                        <li className={`header__nav-item ${this.state.currentPage === 'blog' ? 'active' : ''}`}
-                            onClick={() => this.handlePageChange('blog')}>blog</li>
+                        {/* <li className={`header__nav-item ${this.state.currentPage === 'blog' ? 'active' : ''}`}
+                            onClick={() => this.handlePageChange('blog')}>blog</li> */}
                         <li className={`header__nav-item ${this.state.currentPage === 'encomenda' ? 'active' : ''}`}
                             onClick={() => this.handlePageChange('encomenda')}>encomenda</li>
                         <li className={`header__nav-item ${this.state.currentPage === 'contato' ? 'active' : ''}`}

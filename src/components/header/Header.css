@@ -36,7 +36,8 @@
 }
 
 .header__nav-item:hover {
-  color: rgb(104, 104, 104);
+  color: rgb(121, 121, 121);
+  font-weight: 600;
 }
 
 .header__nav-item.active {

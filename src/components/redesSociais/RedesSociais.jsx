@@ -9,13 +9,13 @@ function RedesSociais() {
         <div className="redes">
             <ul className="redes__list">
                 <li className="redes__item">
-                    <a href="#" className="redes__link"><img className="whatsapp__image" src={whatsapp} alt="" /></a>
+                    <a target="_blank" href="https://wa.me/5531991525735" className="redes__link" rel="noreferrer"><img className="whatsapp__image" src={whatsapp} alt="" /></a>
                 </li>
                 <li className="redes__item">
-                    <a href="#" className="redes__link"><img className="facebook__image" src={facebook} alt="" /></a>
+                    <a target="_blank" href="https://www.facebook.com/GlaydeRibeiro" className="redes__link" rel="noreferrer"><img className="facebook__image" src={facebook} alt="" /></a>
                 </li>
                 <li className="redes__item">
-                    <a href="#" className="redes__link"><img className="instagram__image" src={instagram} alt="" /></a>
+                    <a target="_blank" href="https://www.instagram.com/glayderibeiro/" className="redes__link" rel="noreferrer"><img className="instagram__image" src={instagram} alt="" /></a>
                 </li>
                 {/* <li className="redes__item">
                     <a href="#" className="redes__link">doces</a>
