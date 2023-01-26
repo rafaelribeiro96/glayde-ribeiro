@@ -7,7 +7,7 @@ function Footer() {
             <div className="footer__col">
                 <h2 className="footer__title">Contato</h2>
                 <div className="footer__info">
-                    <p className="footer__telephone">Telefone: (31) 99152-5735</p>
+                    <a href="tel:+31991525735" className="footer__telephone">Telefone: (31) 99152-5735</a>
                     <a target="_blank" href="https://www.instagram.com/glayderibeiro/" className="footer__instagram" rel="noreferrer">@GlaydeRibeiro</a>
                 </div>
             </div>
@@ -38,7 +38,7 @@ function Footer() {
             <div className="footer__col">
                 <h2 className="footer__title">Endereço</h2>
                 <div className="footer__info">
-                    <p className="footer__address">Rua Monte Simplon, 1279 <br/>Salgado Filho, BH-MG</p>
+                    <a href="https://goo.gl/maps/v1vzrNixbn43CjTt6" target="_blank" rel="noreferrer" className="footer__address__link"> <p className="footer__address">Rua Monte Simplon, 1279 <br/>Salgado Filho, BH-MG</p></a>
                 </div>
             </div>
         </div>

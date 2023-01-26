@@ -27,6 +27,12 @@
 
 .footer__info {
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__info a {
+  margin-bottom: 10px;
 }
 
 .footer__instagram {
@@ -41,9 +47,11 @@
   text-align: center;
 }
 
-/* .end {
-  text-align: end;
-} */
+.footer__info a{
+  /* Estilos para o link do endereço */
+  text-decoration: none;
+  color: white;
+}
 
 
 @media (min-width: 900px) {
