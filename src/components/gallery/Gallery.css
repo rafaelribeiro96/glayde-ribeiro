@@ -34,8 +34,10 @@
 }
 
 .selected-image {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 70%;
+  max-height: 70%;
+  width: 70%;
+  object-fit: cover;
 }
 
 .close-button {

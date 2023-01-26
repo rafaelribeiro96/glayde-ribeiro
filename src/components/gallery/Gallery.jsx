@@ -9,9 +9,9 @@ const Gallery = ({ images }) => {
         setSelectedImage(image);
     };
 
-    const handleClose = () => {
+    /* const handleClose = () => {
         setSelectedImage(null);
-    };
+    }; */
 
     const handlePrev = () => {
         const currentIndex = images.indexOf(selectedImage);
@@ -38,6 +38,9 @@ const Gallery = ({ images }) => {
                 if (e.keyCode === 39) {
                     handleNext();
                 }
+                if (e.keyCode === 27) {
+                    setSelectedImage(null);
+                }
             }
         };
         window.addEventListener('keydown', handleKeyDown);
@@ -45,11 +48,30 @@ const Gallery = ({ images }) => {
             window.removeEventListener('keydown', handleKeyDown);
         };
     }, [selectedImage, handlePrev, handleNext]);
+    
+
+    useEffect(() => {
+        const handleOutsideClick = (e) => {
+            if (selectedImage && !e.target.closest('.selected-image-container')) {
+                setSelectedImage(null);
+            }
+        };
+        window.addEventListener('mousedown', handleOutsideClick);
+        return () => {
+            window.removeEventListener('mousedown', handleOutsideClick);
+        };
+    }, [selectedImage]);
+
+    const handleClose = (event) => {
+        if(event.target === event.currentTarget) {
+            setSelectedImage(null);
+        }
+    };
 
     return (
         <div className="gallery-container">
             {selectedImage ? (
-                <div className="selected-image-container">
+                <div className="selected-image-container" onClick={handleClose}>
                     <img src={selectedImage} alt="Selected" className="selected-image" />
                     <button className="prev-button" onClick={handlePrev}>&lt;</button>
                     <button className="next-button" onClick={handleNext}>&gt;</button>
