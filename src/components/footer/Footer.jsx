@@ -16,22 +16,24 @@ function Footer() {
                 <h2 className="footer__title">Funcionamento</h2>
                 <div className="footer__info father__table">
                     <table className="footer__table">
-                        <tr>
-                            <td>Terça à sexta</td>
-                            <td>10:30 - 20:00</td>
-                        </tr>
-                        <tr>
-                            <td>Sábado</td>
-                            <td>08:00 - 16:00</td>
-                        </tr>
-                        <tr>
-                            <td>Domingo</td>
-                            <td>08:00 - 11:30</td>
-                        </tr>
-                        <tr>
-                            <td>Segunda-feira</td>
-                            <td>Fechado</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>Terça à sexta</td>
+                                <td>10:30 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Sábado</td>
+                                <td>08:00 - 16:00</td>
+                            </tr>
+                            <tr>
+                                <td>Domingo</td>
+                                <td>08:00 - 11:30</td>
+                            </tr>
+                            <tr>
+                                <td>Segunda-feira</td>
+                                <td>Fechado</td>
+                            </tr>
+                        </tbody>
                     </table>
 
                 </div>
