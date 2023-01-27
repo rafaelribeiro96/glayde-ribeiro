@@ -5,7 +5,7 @@
   padding: 25px 20px 10px 20px;
   font-family: 'Montserrat', sans-serif;
   height: 80px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .container {
@@ -25,16 +25,16 @@
 
 .img__title {
   width: 300px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .header__nav {
-  margin-left: auto;
+  margin-right: 200px;
 }
 
 .header__nav-item {
   list-style: none;
-  margin-right: 10px;
+  margin-right: 20px;
   cursor: pointer;
   font-size: 20px;
 }
