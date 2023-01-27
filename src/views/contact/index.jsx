@@ -20,7 +20,7 @@ function Contact() {
                         </div>
                         <div className="contato__telefone">
                             <h2>Telefone:</h2>
-                            <p className="phone"><a href="tel:+31991525735" className="footer__telephone">(31) 99152-5735</a></p>
+                            <p className="phone__contact"><a href="tel:+31991525735" className="footer__telephone">(31) 99152-5735</a></p>
                         </div>
                         <div className="contato__instagram">
                             <h2>Instagram:</h2>
