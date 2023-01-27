@@ -20,20 +20,20 @@ function Contact() {
                         </div>
                         <div className="contato__telefone">
                             <h2>Telefone:</h2>
-                            <p>(31) 99152-5735</p>
+                            <p className="phone"><a href="tel:+31991525735" className="footer__telephone">(31) 99152-5735</a></p>
                         </div>
                         <div className="contato__instagram">
                             <h2>Instagram:</h2>
                             <a target="_blank" href="https://www.instagram.com/glayderibeiro/" className="link__insta__contato" rel="noreferrer"><p>@GlaydeRibeiro</p></a>
                         </div>
-                        <div><a href="https://wa.me/5531991525735?text=Ol%C3%A1%20Glayde,%20te%20encontrei%20atrav%C3%A9s%20do%20seu%20site!">
+                        <div><a target="_blank" href="https://wa.me/5531991525735?text=Ol%C3%A1%20Glayde,%20te%20encontrei%20atrav%C3%A9s%20do%20seu%20site!" rel="noreferrer">
                             <button className="botao__whatsapp">Chamar no WhatsApp</button></a></div>
                     </div>
 
                     <div className="contato__maps">
                         <h2>Google Maps:</h2>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14696.39479490127!2d-43.9649547!3d-19.9188254!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8bddf0d6f1659b3f!2sR.%20Monte%20Simpl%C3%B3n%2C%201279%20-%20Salgado%20Filho%2C%20Belo%20Horizonte%20-%20MG%2C%2030455-080!5e0!3m2!1spt-BR!2sbr!4v1611797875397!5m2!1spt-BR!2sbr"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.639542078802!2d-43.984014712605216!3d-19.939589007281366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ab7a0c86b1%3A0x7a57712a8f8a65e8!2sConfeitaria%20Glayde%20Ribeiro!5e0!3m2!1spt-BR!2sbr!4v1674829676319!5m2!1spt-BR!2sbr"
                             width="400"
                             height="300"
                             frameBorder="0"
