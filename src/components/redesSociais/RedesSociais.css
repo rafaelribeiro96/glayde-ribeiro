@@ -44,7 +44,7 @@
   object-fit: contain;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
 
   .redes__link img{
     /* Estilos para os links */
@@ -59,7 +59,7 @@
   
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 
   .redes__link img{
     /* Estilos para os links */
@@ -68,8 +68,8 @@
   }
 
   .redes__item {
-    margin-right:40px;
-    margin-left: 40px;
+    margin-right:25px;
+    margin-left: 25px;
   }
   
 }
