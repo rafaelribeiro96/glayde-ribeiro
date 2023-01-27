@@ -6,12 +6,10 @@ import Footer from '../../components/footer/Footer.jsx';
 import FloatingButton from '../../components/botaoContato/FloatingButton.jsx';
 import './index.css';
 import imageGlayde from '../../assets/images/glayde-ribeiro2.jpg';
-import bolo1 from '../../assets/images/bolo1.jpg';
-import bolo2 from '../../assets/images/bolo2.jpg';
-import bolo3 from '../../assets/images/bolo3.jpg';
-import bolo4 from '../../assets/images/bolo4.jpg';
+import ex1 from '../../assets/images/ex1.jpg';
+import ex2 from '../../assets/images/ex2.jpg';
 
-const images1 = [bolo1, bolo2, bolo3, bolo4];
+const images1 = [ex2, ex2, ex2, ex2];
 
 function About() {
     return (

@@ -13,3 +13,9 @@
   /* #4D4D4D */
   /* #837575 */
 
+.title__products {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
