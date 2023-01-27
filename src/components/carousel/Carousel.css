@@ -20,6 +20,7 @@ css carrousel
   opacity: 80%;
   border-radius: 50px;
   border:5px white solid;
+  box-sizing: border-box;
 }
 
 .carousel__image:hover {
@@ -109,7 +110,7 @@ css carrousel
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .carousel__image {
     width: 100%;
   }
@@ -128,7 +129,7 @@ css carrousel
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 535px) {
   .carousel__image {
     width: 100%;
     height: 300px;
@@ -157,7 +158,7 @@ css carrousel
 }
 
 
-@media (max-width: 330px) {
+@media (max-width: 370px) {
   .message {
     left: 20px;
     font-size: 18px;
@@ -165,7 +166,7 @@ css carrousel
   }
 }
 
-@media (max-width: 280px) {
+@media (max-width: 330px) {
   .message {
     left: 10px;
     font-size: 14px;
