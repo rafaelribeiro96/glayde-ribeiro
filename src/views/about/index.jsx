@@ -20,7 +20,11 @@ function About() {
                     <img className="content__about__image" src={imageGlayde} alt="Glayde Ribeiro" />
                     <div className="content__about__text">
                         <h2>Glayde Ribeiro</h2>
-                        <p>Com mais de 25 anos de experiência na confeitaria, Glayde Ribeiro é uma confeiteira renomada no mercado. Ela já realizou diversos cursos, participou de muitos seminários e palestras, e tem muita experiência em fazer bolos, doces, chocolates e outras delícias. Glayde ama a sua profissão e é apaixonada pelo que faz, o que se reflete em cada trabalho que ela entrega.</p>
+                        <p>Glayde Ribeiro tem mais de 25 anos de experiência na confeitaria e é reconhecida no mercado pelo seu talento e paixão pelo que faz, tem a arte de confeitar como sua paixão desde 1995 e trabalha para tornar cada evento único e especial. Com diversos cursos e participações em seminários e palestras, a Confeitaria Glayde Ribeiro oferece bolos, doces, chocolates e outras delícias de alta qualidade na cidade de Belo Horizonte e região.</p>
+
+                        <p>Nós oferecemos uma ampla variedade de opções, desde bolos para casamentos, aniversários, festas empresariais, chá de bebê, chá de revelação, batizado e outros eventos. Trabalhamos também com naked cakes, bentô cake, bolos personalizados, cupcakes, bombons, bem-casados, presentes e lembrancinhas com o tema que o cliente desejar, além de diversos outros produtos do mundo da confeitaria.</p>
+
+                        <p>A Confeitaria Glayde Ribeiro fica localizada em Belo Horizonte, e atendemos outras cidades como Nova Lima, Betim, Contagem, entre outras da região metropolitana de Belo Horizonte - Minas Gerais. Entre em contato conosco para encomendar os melhores bolos, doces e chocolates para o seu evento.</p>
                     </div>
                 </div>
                 <Gallery images={images1} />
