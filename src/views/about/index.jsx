@@ -6,10 +6,16 @@ import Footer from '../../components/footer/Footer.jsx';
 import FloatingButton from '../../components/botaoContato/FloatingButton.jsx';
 import './index.css';
 import imageGlayde from '../../assets/images/sobre.jpg';
-import ex1 from '../../assets/images/ex1.jpg';
-import ex2 from '../../assets/images/ex2.jpg';
+/* import ex1 from '../../assets/images/ex1.jpg';
+import ex2 from '../../assets/images/ex2.jpg'; */
+import about1 from '../../assets/images/about/about1.jpg';
+import about2 from '../../assets/images/about/about2.jpg';
+import about3 from '../../assets/images/about/about3.jpg';
+import about4 from '../../assets/images/about/about4.png';
 
-const images1 = [ex2, ex2, ex2, ex2];
+
+/* const images1 = [ex2, ex2, ex2, ex2]; */
+const images1 = [about1, about2, about3, about4];
 
 function About() {
     return (
