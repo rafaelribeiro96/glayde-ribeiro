@@ -27,15 +27,25 @@
   margin-right: 20px;
 }
 
-.sobreHome__link {
+.sobreHome__link__title {
   /* Estilos para os links */
   text-decoration: none;
+  color: inherit;
+}
+
+.sobreHome__link {
+  /* Estilos para os links */
+  /* text-decoration: none; */
   color: inherit;
 }
 
 .sobreHome__image {
   margin-top: 40px;
   width: 100%;
+}
+
+.resumo__about {
+  margin: 15px 30px;
 }
 
 @media (max-width: 420px) {
