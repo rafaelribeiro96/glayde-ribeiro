@@ -28,15 +28,16 @@
 }
 
 .sobreHome__link__title {
-  /* Estilos para os links */
   text-decoration: none;
   color: inherit;
 }
 
 .sobreHome__link {
-  /* Estilos para os links */
-  /* text-decoration: none; */
   color: inherit;
+}
+
+.sobreHome__link:hover {
+  font-weight: bold;
 }
 
 .sobreHome__image {
@@ -47,6 +48,18 @@
 .resumo__about {
   margin: 15px 30px;
 }
+
+
+
+@media (max-width: 530px) {
+
+
+  .resumo__about {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+}
+
 
 @media (max-width: 420px) {
 
