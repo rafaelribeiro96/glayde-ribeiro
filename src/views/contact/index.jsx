@@ -19,9 +19,8 @@ function Contact() {
                         <h2>Google Maps:</h2>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.639542078802!2d-43.984014712605216!3d-19.939589007281366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ab7a0c86b1%3A0x7a57712a8f8a65e8!2sConfeitaria%20Glayde%20Ribeiro!5e0!3m2!1spt-BR!2sbr!4v1674829676319!5m2!1spt-BR!2sbr"
-                            width="400"
+                            width="100%"
                             height="300"
-                            frameBorder="0"
                             style={{border:0}}
                             allowFullScreen=""
                             aria-hidden="false"
@@ -52,12 +51,12 @@ function Contact() {
 
                         <p>Recomendamos que realize suas encomendas com um maior prazo em relação a data do evento, para que possamos garantir a vaga em nossa agenda.</p> <br />
                     
-                        <h3>Formas de Pagamento:</h3>
+                        <h4>Formas de Pagamento:</h4>
                         <p> As formas de pagamento incluem PIX, transferência bancária ou cartão de crédito/ débito (pelo menos 50% do valor total deve ser pago no momento da realização da encomenda, e o restante no dia da entrega).</p> <br />
                     
                         <p>Para consultar condições de frete, favor chamar no WhatsApp.</p> <br />
                     
-                        <h3>Onde retirar:</h3>
+                        <h4>Onde retirar:</h4>
                         <p>Nossa localização para busca dos pedidos é na Rua Monte Simplon, 1279, Salgado Filho - Belo Horizonte - MG. Oferecemos atendimento de terça a sexta das 10:30 às 20:00 e aos sábados das 08:00 às 16:00.</p>
                     </div>
                 
